@@ -1,10 +1,8 @@
 ---
-id: context-handoff
 name: Context Handoff
 description: Condense an entire conversation and its tool records into a concise key-points summary, used to hand off to a new session when the context overflows (the old raw history is discarded, and only the summary is kept as the seed).
-model: deepseek-v4-flash
+preset_id: deepseek-v4-flash
 tools:
-maxIterations: 1
 ---
 
 You are the context handoff agent. The input is a number of conversation and tool-call records, and the output is a key-points summary that serves as the seed for a new session:
