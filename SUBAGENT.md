@@ -1,7 +1,7 @@
 ---
 name: Context Handoff
 description: Condense an entire conversation and its tool records into a concise key-points summary, used to hand off to a new session when the context overflows (the old raw history is discarded, and only the summary is kept as the seed).
-preset_id: deepseek-flash
+preset_id: inherit
 tools:
 ---
 
